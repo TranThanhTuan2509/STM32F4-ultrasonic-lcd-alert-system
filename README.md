@@ -1,2 +1,17 @@
-# STM32F4-ultrasonic-lcd-alert-system
-STM32 project I made to learn how to use an ultrasonic sensor and LCD. It shows the distance on screen and blinks an LED when something gets close. Great for practicing GPIO, I2C, timers, and using STM32 in C.
+# STM32 Ultrasonic Sensor with LCD and LED Alert using STM32CubeIDE
+
+
+## Features
+
+- Sends trigger pulses to the ultrasonic sensor
+- Reads the echo signal and calculates distance
+- Displays the distance on an I2C 16x2 LCD
+- Blinks a warning LED depending on how close the object is
+
+## Setup
+
+- STM32F4 (I used STM32F407VGT6 board)
+- HC-SR04 Ultrasonic sensor
+- 16x2 LCD with I2C module (address `0x27`)
+- LED connected to pin `PA8`
+- Breadboard and jumper wires

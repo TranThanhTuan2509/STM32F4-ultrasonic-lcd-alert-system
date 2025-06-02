@@ -1,0 +1,12 @@
+../Core/Src/main.c:35:5:main	7
+../Core/Src/main.c:86:6:initGPIO	1
+../Core/Src/main.c:102:6:initI2C	1
+../Core/Src/main.c:111:6:initTimer2	1
+../Core/Src/main.c:118:6:delayUs	2
+../Core/Src/main.c:123:6:delayMs	2
+../Core/Src/main.c:129:9:getDistance	8
+../Core/Src/main.c:148:6:writeLCD	6
+../Core/Src/main.c:170:6:sendCmdToLCD	1
+../Core/Src/main.c:174:6:initLCD	3
+../Core/Src/main.c:185:6:printLCD	2
+../Core/Src/main.c:191:6:updateLCDLine	3
